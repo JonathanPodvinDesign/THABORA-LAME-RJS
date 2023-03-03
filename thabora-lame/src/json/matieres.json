@@ -1,0 +1,104 @@
+{
+    "matieres": [
+        {
+        "famille": "Bois",
+        "id": "B",
+        "elements": 
+            [
+                {
+                "matiere" : "Bois",
+                "id": "01",
+                "nom": "Bois clair",
+                "imagePC": "/img/produits/fabriquer/PCB01.png",
+                "imagePA": "/img/produits/fabriquer/PAB01.png",
+                "imagePP": "/img/produits/fabriquer/PPB01.png"
+                },
+                {
+                    "matiere" : "Bois",
+                    "id": "02",
+                    "nom": "Bois foncé",
+                    "imagePC": "/img/produits/fabriquer/PCB02.png",
+                    "imagePA": "/img/produits/fabriquer/PAB02.png",
+                    "imagePP": "/img/produits/fabriquer/PPB02.png"
+                    }
+            ]
+        },
+        {
+            "famille": "Carbone",
+            "id": "C",
+            "elements": 
+                [
+                    {
+                    "matiere" : "Carbone",
+                    "id": "01",
+                    "nom": "Carbone",
+                    "imagePC": "/img/produits/fabriquer/PCC01.png",
+                    "imagePA": "/img/produits/fabriquer/PAC01.png",
+                    "imagePP": "/img/produits/fabriquer/PPC01.png"
+                    }
+                ]
+            },
+        {
+            "famille": "Résine",
+            "id": "R",
+            "elements": 
+                [
+                    {
+                    "matiere" : "G10",
+                    "id": "01",
+                    "nom": "G10 Noir",
+                    "imagePC": "/img/produits/fabriquer/PCR01.png",
+                    "imagePA": "/img/produits/fabriquer/PAR01.png",
+                    "imagePP": "/img/produits/fabriquer/PPR01.png"
+                    },
+                    {
+                        "matiere" : "G10",
+                        "id": "02",
+                        "nom": "G10 Kaki",
+                        "imagePC": "/img/produits/fabriquer/PCR02.png",
+                        "imagePA": "/img/produits/fabriquer/PAR02.png",
+                        "imagePP": "/img/produits/fabriquer/PPR02.png"
+                        }
+                ]
+            },
+            {
+                "famille": "Métaux",
+                "id": "M",
+                "elements": 
+                    [
+                        {
+                        "matiere" : "Acier",
+                        "id": "01",
+                        "nom": "Acier Brillant",
+                        "imagePC": "/img/produits/fabriquer/PCM01.png",
+                        "imagePA": "/img/produits/fabriquer/PAM01.png",
+                        "imagePP": "/img/produits/fabriquer/PPM01.png"
+                        },
+                        {
+                            "matiere" : "Acier",
+                            "id": "02",
+                            "nom": "PVD Doré Jaune",
+                            "imagePC": "/img/produits/fabriquer/PCM02.png",
+                            "imagePA": "/img/produits/fabriquer/PAM02.png",
+                            "imagePP": "/img/produits/fabriquer/PPM02.png"
+                        },
+                        {
+                            "matiere" : "Acier",
+                            "id": "03",
+                            "nom": "PVD Doré Rose",
+                            "imagePC": "/img/produits/fabriquer/PCM03.png",
+                            "imagePA": "/img/produits/fabriquer/PAM03.png",
+                            "imagePP": "/img/produits/fabriquer/PPM03.png"
+                        },
+                        {
+                            "matiere" : "Acier",
+                            "id": "04",
+                            "nom": "PVD Doré Bleu",
+                            "imagePC": "/img/produits/fabriquer/PCM04.png",
+                            "imagePA": "/img/produits/fabriquer/PAM04.png",
+                            "imagePP": "/img/produits/fabriquer/PPM04.png"
+                        }
+                    ]
+                }
+    ]
+}

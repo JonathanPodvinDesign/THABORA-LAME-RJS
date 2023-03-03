@@ -1,0 +1,62 @@
+[
+    {
+        "id": "GLOUP01",
+        "nom": "Gravure Loup 01 Laser Foncé",
+        "prix": 60,
+        "categorie": "Gravures",
+        "image": "/img/produits/fabriquer/LOUPG01LF.png",
+        "description": "Gravure Loup",
+        "gravure": "LF",
+        "disponibilite": true
+    },
+    {
+        "id": "GLOUP01",
+        "nom": "Gravure Loup 01 Laser Clair",
+        "prix": 60,
+        "categorie": "Gravures",
+        "image": "/img/produits/fabriquer/LOUPG01LC.png",
+        "description": "Gravure Loup",
+        "gravure": "LC",
+        "disponibilite": true
+    },
+    {
+        "id": "GTRACTEUR01",
+        "nom": "Gravure Tracteur 01 Laser Foncé",
+        "prix": 60,
+        "categorie": "Gravures",
+        "image": "/img/produits/fabriquer/GTRACTEUR01LF.png",
+        "description": "Gravure Tracteur",
+        "gravure": "LF",
+        "disponibilite": true
+    },
+    {
+        "id": "GTRACTEUR01",
+        "nom": "Gravure Tracteur 01 Laser Clair",
+        "prix": 60,
+        "categorie": "Gravures",
+        "image": "/img/produits/fabriquer/GTRACTEUR01LC.png",
+        "description": "Gravure Tracteur",
+        "gravure": "LC",
+        "disponibilite": true
+    },
+    {
+        "id": "GMONTAGNES01",
+        "nom": "Gravure Montagnes 01 Laser Foncé",
+        "prix": 60,
+        "categorie": "Gravures",
+        "image": "/img/produits/fabriquer/GMONTAGNES01LF.png",
+        "description": "Gravure Montagnes",
+        "gravure": "LF",
+        "disponibilite": true
+    },
+    {
+        "id": "GMONTAGNES01",
+        "nom": "Gravure Montagnes 01 Laser Clair",
+        "prix": 60,
+        "categorie": "Gravures",
+        "image": "/img/produits/fabriquer/GMONTAGNES01LC.png",
+        "description": "Gravure Montagnes",
+        "gravure": "LC",
+        "disponibilite": true
+    }
+]

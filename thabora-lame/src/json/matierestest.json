@@ -1,0 +1,19 @@
+{
+    "matieres": [
+        {
+        "famille": "Bois",
+        "id": "B",
+        "elements": 
+            [
+                {
+                "matiere" : "Bois",
+                "id": "B01",
+                "nom": "Bois clair",
+                "imagePC": "/img/produits/fabriquer/PCB01.png",
+                "imagePA": "/img/produits/fabriquer/PAB01.png",
+                "imagePP": "/img/produits/fabriquer/PPB01.png"
+                }
+            ]
+        }
+    ]
+}

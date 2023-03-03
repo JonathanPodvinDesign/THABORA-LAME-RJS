@@ -1,0 +1,10 @@
+[
+    {
+        "id": "PC",
+        "nom": "Plaquette Centrale",
+        "prix": 60,
+        "categorie": "Plaquettes",
+        "image": "/img/produits/fabriquer/MANCHEBLANK.png",
+        "disponibilite": true
+    }
+]

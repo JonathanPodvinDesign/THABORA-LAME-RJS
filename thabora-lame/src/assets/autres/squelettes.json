@@ -1,0 +1,35 @@
+[
+    {
+        "id": "KB",
+        "nom": "Lame Brillante",
+        "prix": 60,
+        "categorie": "Squelettes",
+        "imageavant": "/img/produits/fabriquer/KB.png",
+        "imagearriere": "/img/produits/fabriquer/KBA.png",
+        "description": "19 cm",
+        "gravure": "LF",
+        "disponibilite": true
+    },
+    {
+        "id": "KG",
+        "nom": "Lame Titane Gris",
+        "prix": 60,
+        "categorie": "Squelettes",
+        "imageavant": "/img/produits/fabriquer/KG.png",
+        "imagearriere": "/img/produits/fabriquer/KGA.png",
+        "description": "19 cm",
+        "gravure": "LF",
+        "disponibilite": true
+    },
+    {
+        "id": "KN",
+        "nom": "Lame Titane Noir",
+        "prix": 60,
+        "categorie": "Squelettes",
+        "imageavant": "/img/produits/fabriquer/KN.png",
+        "imagearriere": "/img/produits/fabriquer/KNA.png",
+        "description": "19 cm",
+        "gravure": "LC",
+        "disponibilite": true
+    }
+]

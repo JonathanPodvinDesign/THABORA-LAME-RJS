@@ -1,0 +1,40 @@
+////////////////////
+// FONTS
+////////////////////
+
+// Cormorant
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital@0;1&display=swap');
+// Ubuntu
+@import url('https://fonts.googleapis.com/css2?family=Cormorant&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+////////////////////
+// COLORS
+////////////////////
+
+$primary-color : #141414;
+$secondary-color : white;
+$third-color : rgb(119, 119, 119);
+
+$primary-font : 'Ubuntu', sans-serif;
+$secondary-font : 'Cormorant', serif;
+
+////////////////////
+// MAIN
+////////////////////
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: $primary-font;
+  }
+  
+  a{
+    color: $secondary-color;
+  }
+  
+  body{
+    background-color: $primary-color;
+    color: $secondary-color;
+  }

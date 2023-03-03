@@ -1,0 +1,64 @@
+.navigation{
+    position: absolute;
+    top: 0;
+    right: 0;
+    ul{
+        display: flex;
+        justify-content: flex-end;
+
+        li{
+            position: relative;
+            margin: 25px;
+            font-family: $secondary-font;
+            font-style: italic;
+            text-transform: uppercase;
+            transition: 1s ease;
+        }
+        
+        li:hover{
+            color: $third-color;
+            &::after{
+                content: "";
+                position: absolute;
+                left: 0%;
+                top: 50%;
+                height: 1px;
+                width: 0;
+                background-color: $secondary-color;
+                animation: anim 0.3s ease forwards;
+
+                @keyframes anim {
+                    to {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    .nav-active{
+        position: relative;
+        
+        &::after{
+            content: "";
+            position: absolute;
+            bottom: 22px;
+            height: 1px;
+            width: 0;
+            background: $third-color;
+            left: 50%;
+            transform: translateX(-50%);
+            animation: animactive 0.3s ease forwards;
+
+            @keyframes animactive {
+                from {
+                    opacity: 0;
+                    width: 0%;
+                } to {
+                    opacity: 1;
+                    width: 50%;
+                }
+            }
+        }
+    }
+}

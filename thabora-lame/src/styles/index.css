@@ -1,0 +1,32 @@
+/* Cormorant */
+@import url("https://fonts.googleapis.com/css2?family=Cormorant:ital@0;1&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+a {
+  color: white;
+}
+
+body {
+  background-color: #141414;
+  color: white;
+}
+
+ul {
+  display: flex;
+  justify-content: end;
+}
+ul li {
+  margin: 25px;
+  font-family: "Cormorant", serif;
+  font-style: italic;
+  text-transform: uppercase;
+  transition: 1s ease;
+}
+ul li:hover {
+  color: rgb(119, 119, 119);
+}/*# sourceMappingURL=index.css.map */
