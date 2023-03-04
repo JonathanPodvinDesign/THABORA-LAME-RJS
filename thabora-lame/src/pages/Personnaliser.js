@@ -1,7 +1,6 @@
 import React from "react";
 import Personnalisation from "../components/Personnalisation";
 import Navigation from "../components/Navigation";
-import Couteau from "../components/Couteau";
 import Titre from "../components/Titre";
 import styled from "styled-components";
 
@@ -10,6 +9,8 @@ const Perso = styled.div`
   display: flex;
   justify-content: center;
   flex-direction: column;
+  height: 100vh;
+  width: 100 vw;
 `;
 
 // PAGE
@@ -19,7 +20,6 @@ const Personnaliser = () => {
       <Navigation />
       <Titre />
       <Personnalisation />
-      <Couteau />
     </Perso>
   );
 };

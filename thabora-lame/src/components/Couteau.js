@@ -1,15 +1,20 @@
 import React from "react";
 import styled from "styled-components";
+import SqueletteImg from "./SqueletteImg";
+import PlaquetteImg from "./PlaquetteImg";
+import MatiereImg from "./MatiereImg";
 
 // STYLE
 const CouteauDevant = styled.div`
   width: 1170px;
   height: 150px;
-  z-index: 100;
-  .squelette-devant {
-    height: 150px;
-    width: 100%;
-  }
+  z-index: 10;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
 `;
 const CouteauDerriere = styled.div``;
 
@@ -17,17 +22,11 @@ const Couteau = () => {
   return (
     <>
       <CouteauDevant>
-        <img
-          src="../../public/img/products/KB.png"
-          alt=""
-          className="squelette-devant"
-        />
+        <SqueletteImg />
+        <PlaquetteImg />
+        <MatiereImg />
       </CouteauDevant>
-      <CouteauDerriere>
-        <img src="" alt="" className="squelette-derriere" />
-        <img src="" alt="" className="matiere-derriere" />
-        <img src="" alt="" className="vis-derriere" />
-      </CouteauDerriere>
+      <CouteauDerriere></CouteauDerriere>
     </>
   );
 };
