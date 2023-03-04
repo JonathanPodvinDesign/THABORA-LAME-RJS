@@ -8,7 +8,7 @@ import styled from "styled-components";
 const Compo = styled.div`
   position: absolute;
   top: 150px;
-  width: 1280px;
+  width: 1170px;
   height: 200px;
   display: flex;
   justify-content: center;

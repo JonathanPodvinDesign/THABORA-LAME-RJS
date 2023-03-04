@@ -2,6 +2,7 @@ import React from "react";
 import Composants from "./Composants";
 import Couteau from "./Couteau";
 import styled from "styled-components";
+import GravureContainer from "./GravureContainer";
 
 // STYLES
 const Persocontainer = styled.div`
@@ -21,6 +22,7 @@ const Personnalisation = () => {
     <Persocontainer>
       <Composants />
       <Couteau />
+      <GravureContainer />
     </Persocontainer>
   );
 };
