@@ -2,6 +2,7 @@ import React from "react";
 import GravuresLameAvant from "./GravuresLameAvant";
 import GravuresTextes from "./GravuresTextes";
 import styled from "styled-components";
+import BoutonSwitch from "./BoutonSwitch";
 
 const GravuresMenuContainer = styled.div`
   display: flex;
@@ -16,6 +17,7 @@ const GravureContainer = () => {
   return (
     <GravuresMenuContainer>
       <GravuresLameAvant />
+      <BoutonSwitch />
       <GravuresTextes />
     </GravuresMenuContainer>
   );
